@@ -39,6 +39,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = realmDB/main.m; sourceTree = "<group>"; };
 		1400C5A84AD0FC69AB39D6AB /* Pods-realmDB-realmDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmDB-realmDBTests.debug.xcconfig"; path = "Target Support Files/Pods-realmDB-realmDBTests/Pods-realmDB-realmDBTests.debug.xcconfig"; sourceTree = "<group>"; };
 		51851BB0B8402ABC778A233E /* Pods-realmDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmDB.debug.xcconfig"; path = "Target Support Files/Pods-realmDB/Pods-realmDB.debug.xcconfig"; sourceTree = "<group>"; };
+		6CCB6F52266DE30900B04025 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = ../../FontAwesome.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = realmDB/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841E104E46DB19750A5DB860 /* libPods-realmDB-realmDBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realmDB-realmDBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF26303516681694006D12F /* Pods-realmDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmDB.release.xcconfig"; path = "Target Support Files/Pods-realmDB/Pods-realmDB.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* realmDB */ = {
 			isa = PBXGroup;
 			children = (
+				6CCB6F51266DE10E00B04025 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -104,6 +106,14 @@
 				841E104E46DB19750A5DB860 /* libPods-realmDB-realmDBTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CCB6F51266DE10E00B04025 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB6F52266DE30900B04025 /* FontAwesome.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -145,7 +155,6 @@
 				1400C5A84AD0FC69AB39D6AB /* Pods-realmDB-realmDBTests.debug.xcconfig */,
 				EFA1C5CDF1319D42428EE611 /* Pods-realmDB-realmDBTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
